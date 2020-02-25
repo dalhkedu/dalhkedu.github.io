@@ -1,0 +1,10 @@
+:root {
+    --bg:#ececec;
+    --colorblack:#000000;
+    --colorgray:#d0d0d0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
