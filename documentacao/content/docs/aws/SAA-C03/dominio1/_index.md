@@ -192,27 +192,27 @@ Para dominar **Design Secure Architectures**, foque em:
 
 
 
-https://docs.aws.amazon.com/accounts/latest/reference/managing-accounts.html
-https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
-https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
-https://docs.aws.amazon.com/vpc/latest/userguide/security.html
-https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-services.html
-https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/data-encryption.html
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html
-https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html
-https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_CreateSnapshotCluster.html
-https://docs.aws.amazon.com/efs/latest/ug/awsbackup.html
-https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-snapshots.html
-https://docs.aws.amazon.com/neptune/latest/userguide/backup-restore-overview.html
-https://docs.aws.amazon.com/documentdb/latest/developerguide/backup_restore.html
-http://aws.amazon.com/s3/features/replication/
-http://aws.amazon.com/backup
-http://aws.amazon.com/ebs/
-http://aws.amazon.com/ec2/
-http://aws.amazon.com/rds/
-http://aws.amazon.com/rds/aurora/
-http://aws.amazon.com/dynamodb/
-http://aws.amazon.com/efs/
-http://aws.amazon.com/storagegateway/
-http://aws.amazon.com/fsx/windows/
+[Configure seu Conta da AWS](https://docs.aws.amazon.com/accounts/latest/reference/managing-accounts.html) \
+[O que é o IAM?](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) \
+[O que é Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) \
+[Gerenciar responsabilidades pela segurança na Amazon Virtual Private Cloud](https://docs.aws.amazon.com/vpc/latest/userguide/security.html) \
+[Segurança, identidade e conformidade](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/security-services.html) \
+[Criptografia de dados](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/data-encryption.html) \
+[Snapshots do Amazon EBS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html) \
+[O que é o Amazon DynamoDB?](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html) \
+[Backup, restauração e exportação de dados](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_CommonTasks.BackupRestore.html) \
+[Criar um snapshot de cluster de banco de dados](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_CreateSnapshotCluster.html) \
+[Backup de sistemas de arquivos do EFS](https://docs.aws.amazon.com/efs/latest/ug/awsbackup.html) \
+[Snapshots e backups do Amazon Redshift](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-snapshots.html) \
+[O que é o Amazon Neptune?](https://docs.aws.amazon.com/neptune/latest/userguide/backup-restore-overview.html) \
+[Backup e restauração no Amazon DocumentDB](https://docs.aws.amazon.com/documentdb/latest/developerguide/backup_restore.html) \
+[Replicação do Amazon S3](http://aws.amazon.com/s3/features/replication/) \
+[AWS Backup](http://aws.amazon.com/backup) \
+[Amazon Elastic Block Store](http://aws.amazon.com/ebs/) \
+[Amazon EC2](http://aws.amazon.com/ec2/) \
+[Amazon Relational Database Service](http://aws.amazon.com/rds/) \
+[Amazon Aurora](http://aws.amazon.com/rds/aurora/) \
+[Amazon DynamoDB](http://aws.amazon.com/dynamodb/) \
+[Amazon Elastic File System](http://aws.amazon.com/efs/) \
+[AWS Storage Gateway](http://aws.amazon.com/storagegateway/) \
+[Amazon FSx for Windows File Server](http://aws.amazon.com/fsx/windows/)

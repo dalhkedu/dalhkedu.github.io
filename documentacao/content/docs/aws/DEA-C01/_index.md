@@ -19,39 +19,47 @@ O exame é dividido em quatro domínios principais, com a seguinte distribuiçã
 #### **Domínio 1: Coleta de Dados (18%)**
 - Identificar fontes de dados (streaming, batch, etc.).
 - Configurar métodos de ingestão de dados (Kinesis, S3, Glue, etc.).
-- Validar e limpar dados durante a ingestão.
+- Validar e limpar dados durante a ingestão. \
+[Estudo sobre](dominio1)
+
 
 #### **Domínio 2: Armazenamento e Gerenciamento de Dados (24%)**
 - Escolher o armazenamento adequado para diferentes casos de uso (S3, RDS, DynamoDB, Redshift, etc.).
 - Gerenciar o ciclo de vida dos dados (S3 Lifecycle, Glacier).
 - Implementar estratégias de particionamento e indexação.
-- Garantir a segurança dos dados (IAM, KMS, cifragem).
+- Garantir a segurança dos dados (IAM, KMS, cifragem). \
+[Estudo sobre](dominio2)
+
 
 #### **Domínio 3: Processamento de Dados (34%)**
 - Transformar dados usando serviços como AWS Glue, Lambda, EMR e Step Functions.
 - Processar dados em tempo real (Kinesis, MSK).
-- Otimizar o desempenho de processamento (escalabilidade, custo).
+- Otimizar o desempenho de processamento (escalabilidade, custo). \
+[Estudo sobre](dominio3)
+
 
 #### **Domínio 4: Análise e Visualização de Dados (24%)**
 - Configurar ferramentas de análise (Athena, Redshift, QuickSight).
 - Implementar pipelines para análise de dados.
-- Visualizar dados e gerar insights.
+- Visualizar dados e gerar insights. \
+[Estudo sobre](dominio4)
+
 
 ---
 
 ### **3. Serviços AWS Chave para o Exame**
 - **Amazon S3:** Armazenamento de objetos.
-- **AWS Glue:** ETL (Extract, Transform, Load).
-- **Amazon Redshift:** Data warehouse.
-- **Amazon Kinesis:** Processamento de streaming.
-- **AWS Lambda:** Computação sem servidor.
-- **Amazon Athena:** Consulta de dados em S3.
-- **Amazon EMR:** Processamento de big data.
-- **AWS Step Functions:** Orquestração de workflows.
+- **AWS Glue:** ETL (Extract, Transform, Load). [Leitura](glue)
+- **Amazon Redshift:** Data warehouse. [Leitura](redshift)
+- **Amazon Kinesis:** Processamento de streaming. [Leitura](kinesis)
+- **AWS Lambda:** Computação sem servidor. [Leitura](lambda)
+- **Amazon Athena:** Consulta de dados em S3. [Leitura](athena)
+- **Amazon EMR:** Processamento de big data. [Leitura](emr)
+- **AWS Step Functions:** Orquestração de workflows. [Leitura](stepfunctions)
 - **Amazon DynamoDB:** Banco de dados NoSQL.
 - **Amazon RDS:** Banco de dados relacional.
 - **AWS IAM:** Gerenciamento de acesso e segurança.
-- **Amazon QuickSight:** Visualização de dados.
+- **Amazon QuickSight:** Visualização de dados. [Leitura](quicksight)
 
 ---
 

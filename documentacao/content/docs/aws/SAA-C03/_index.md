@@ -15,19 +15,23 @@ title: "SAA-C03"
 O exame é dividido em 4 domínios principais, com a seguinte distribuição de peso:
 1. **Design Secure Architectures** (30%):  
    - IAM, políticas de segurança, criptografia, proteção de dados, segurança de rede (VPC, Security Groups, NACLs).  
-   - Serviços como AWS KMS, AWS Shield, WAF, Cognito.
+   - Serviços como AWS KMS, AWS Shield, WAF, Cognito. \
+   [Estudo sobre](dominio1)
 
 2. **Design Resilient Architectures** (26%):  
    - Alta disponibilidade (HA), recuperação de desastres (DR), escalabilidade (Auto Scaling, ELB), redundância.  
-   - Serviços como RDS Multi-AZ, S3 Cross-Region Replication, Route 53, DynamoDB Global Tables.
+   - Serviços como RDS Multi-AZ, S3 Cross-Region Replication, Route 53, DynamoDB Global Tables. \
+   [Estudo sobre](dominio2)
 
 3. **Design High-Performing Architectures** (24%):  
    - Otimização de desempenho para armazenamento (EBS, S3), computação (EC2, Lambda), redes (CloudFront, Global Accelerator).  
-   - Cache (ElastiCache), otimização de bancos de dados (Aurora, Redshift).
+   - Cache (ElastiCache), otimização de bancos de dados (Aurora, Redshift). \
+   [Estudo sobre](dominio3)
 
 4. **Design Cost-Optimized Architectures** (20%):  
    - Estratégias de redução de custos (reservas de instâncias, Spot Instances, análise de custos com AWS Cost Explorer).  
-   - Seleção de serviços econômicos (ex: S3 Intelligent-Tiering, Lambda vs. EC2).
+   - Seleção de serviços econômicos (ex: S3 Intelligent-Tiering, Lambda vs. EC2). \
+   [Estudo sobre](dominio4)
 
 ---
 
@@ -41,12 +45,12 @@ O exame é dividido em 4 domínios principais, com a seguinte distribuição de 
 ---
 
 ### **Principais Serviços AWS Cobrados**
-- **Computação**: EC2, Lambda, ECS, Elastic Beanstalk.  
-- **Armazenamento**: S3, EBS, EFS, Glacier.  
-- **Bancos de Dados**: RDS, DynamoDB, Aurora, Redshift.  
-- **Rede e Conteúdo**: VPC, CloudFront, Route 53, API Gateway.  
-- **Segurança**: IAM, KMS, WAF, AWS Organizations.  
-- **Monitoramento e Gerenciamento**: CloudWatch, CloudTrail, AWS Config.
+- **Computação**: EC2, [ECS](ecs), Elastic Beanstalk, [EKS](eks), [Lambda](lambda)
+- **Armazenamento**: S3, EBS, EFS, Glacier.  [Leitura](armazenamento)
+- **Bancos de Dados**: RDS, DynamoDB, Aurora, Redshift.  [Leitura](bdados)
+- **Rede e Conteúdo**: VPC, CloudFront, Route 53, API Gateway. [Leitura](rede)
+- **Segurança**: IAM, KMS, WAF, AWS Organizations. [Leitura](seguranca)
+- **Monitoramento e Gerenciamento**: CloudWatch, CloudTrail, AWS Config. [Leitura](monitoramento)
 
 ---
 

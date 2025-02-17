@@ -155,18 +155,18 @@ Para dominar **Design Resilient Architectures** no exame SAA-C03:
 - Pratique cenários de failover e recuperação de desastres no **AWS Free Tier**.  
 
 
-https://docs.aws.amazon.com/wellarchitected/latest/high-performance-computing-lens/scenarios.html
-https://aws.amazon.com/autoscaling/
-https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
-https://aws.amazon.com/products/networking/edge-networking/
-https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html
-https://aws.amazon.com/serverless/
-https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
-https://docs.aws.amazon.com/sns/latest/dg/welcome.html
-https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html
-https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html
-https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html
-https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html
-https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html
-https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html
-https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy.html
+[HCP - AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/high-performance-computing-lens/scenarios.html) \
+[AWS Auto Scaling](https://aws.amazon.com/autoscaling/) \
+[O que é o Amazon EC2 Auto Scaling?](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html) \
+[Redes de borda com a AWS](https://aws.amazon.com/products/networking/edge-networking/) \
+[What is AWS Transfer Family?](https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html) \
+[Sem servidor na AWS](https://aws.amazon.com/serverless/) \
+[O que é o Amazon API Gateway?](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) \
+[O que é o Amazon SNS?](https://docs.aws.amazon.com/sns/latest/dg/welcome.html) \
+[O que é o Amazon Simple Queue Service?](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html) \
+[Alta disponibilidade e escalabilidade na AWS](https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html) \
+[Alta disponibilidade e escalabilidade na AWS](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html) \
+[What is Elastic Disaster Recovery?](https://docs.aws.amazon.com/drs/latest/userguide/what-is-drs.html) \
+[Conectar sua VPC a outras redes](https://docs.aws.amazon.com/vpc/latest/userguide/extend-intro.html) \
+[O que é o Amazon Route 53?](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html) \
+[Amazon RDS Proxy para o Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-proxy.html)

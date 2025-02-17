@@ -193,20 +193,20 @@ Para dominar **Design High-Performing Architectures** no exame SAA-C03:
 - Revise casos de uso de **Global Accelerator** vs. **CloudFront**.  
 
 
-https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html
-https://aws.amazon.com/products/storage/
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
-https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
-https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-networking.html
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
-https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-services-overview.html
-https://docs.aws.amazon.com/vpc/latest/userguide/resolver-dns-firewall.html
-https://docs.aws.amazon.com/vpc/latest/userguide/network-firewall.html
-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-scenarios-intro.html
-https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html
-https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
-https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-ingestion-methods.html
-https://docs.aws.amazon.com/whitepapers/latest/data-warehousing-on-aws/data-processing.html
-https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html
+[Armazenamento](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html) \
+[Armazenamento na nuvem na AWS](https://aws.amazon.com/products/storage/) \
+[Gerenciar o ciclo de vida dos objetos](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html) \
+[Computar](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html) \
+[bancos de dados](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html) \
+[Redes no Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-networking.html) \
+[Como planejar a VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html) \
+[Conectar VPCs usando emparelhamento da VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html) \
+[Conectar sua VPC a outro serviços usando o AWS PrivateLink](https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-services-overview.html) \
+[Filtrar o tráfego de DNS usando o Route 53 Resolver DNS Firewall](https://docs.aws.amazon.com/vpc/latest/userguide/resolver-dns-firewall.html) \
+[Filtrar o tráfego de rede usando o AWS Network Firewall](https://docs.aws.amazon.com/vpc/latest/userguide/network-firewall.html) \
+[Exemplos de VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-scenarios-intro.html) \
+[O que é o AWS Global Accelerator?](https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html) \
+[O que é o Amazon CloudFront?](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) \
+[Data ingestion methods](https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/data-ingestion-methods.html) \
+[Data processing](https://docs.aws.amazon.com/whitepapers/latest/data-warehousing-on-aws/data-processing.html) \
+[O que AWS Lake Formation](https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html)

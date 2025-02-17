@@ -8,7 +8,7 @@ A coleta de dados começa com a identificação das fontes de dados, que podem s
 1. **Streaming (Dados em Tempo Real):**
    - Dados gerados continuamente, como logs de aplicações, métricas de IoT, cliques em websites ou transações financeiras.
    - Exemplos de fontes:
-     - **Amazon Kinesis Data Streams**: Para ingestão de dados em tempo real.
+     - **Amazon Kinesis Data Streams**: Para ingestão de dados em tempo real. [Leitura](../kinesis)
      - **Amazon Managed Streaming for Apache Kafka (MSK)**: Para processamento de streams com Kafka.
      - **AWS IoT Core**: Para coleta de dados de dispositivos IoT.
 
@@ -17,7 +17,7 @@ A coleta de dados começa com a identificação das fontes de dados, que podem s
    - Exemplos de fontes:
      - **Amazon S3**: Para armazenamento de arquivos em lote.
      - **Amazon RDS**: Para exportação de dados de bancos relacionais.
-     - **AWS Glue**: Para ETL de dados em lote.
+     - **AWS Glue**: Para ETL de dados em lote. [Leitura](../glue)
 
 3. **Dados Semi-Estruturados e Não Estruturados:**
    - Dados que não seguem um esquema rígido, como JSON, XML, logs ou imagens.

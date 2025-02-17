@@ -6,7 +6,7 @@ title: "Domínio 3: Processamento de Dados"
 A transformação de dados envolve a conversão, limpeza e enriquecimento de dados brutos para torná-los úteis para análise e tomada de decisões. A AWS oferece vários serviços para essa finalidade:
 
 ### **Serviços de Transformação de Dados**
-1. **AWS Glue:**
+1. **AWS Glue:** [Leitura](../glue)
    - **O que é:** Um serviço de ETL (Extract, Transform, Load) totalmente gerenciado.
    - **Casos de Uso:**
      - Preparação de dados para análise.
@@ -17,7 +17,7 @@ A transformação de dados envolve a conversão, limpeza e enriquecimento de dad
      - **Glue Crawlers:** Descoberta automática de esquemas de dados.
      - **Glue DataBrew:** Ferramenta visual para limpeza e transformação de dados.
 
-2. **AWS Lambda:**
+2. **AWS Lambda:** [Leitura](../lambda)
    - **O que é:** Um serviço de computação sem servidor que executa código em resposta a eventos.
    - **Casos de Uso:**
      - Transformação de dados em tempo real.
@@ -26,7 +26,7 @@ A transformação de dados envolve a conversão, limpeza e enriquecimento de dad
      - Execução de funções Python, Node.js, Java, etc.
      - Escalabilidade automática com base na demanda.
 
-3. **Amazon EMR (Elastic MapReduce):**
+3. **Amazon EMR (Elastic MapReduce):** [Leitura](../emr)
    - **O que é:** Um serviço gerenciado para processamento de big data usando frameworks como Hadoop, Spark e Hive.
    - **Casos de Uso:**
      - Processamento de grandes volumes de dados.
@@ -35,7 +35,7 @@ A transformação de dados envolve a conversão, limpeza e enriquecimento de dad
      - Escalabilidade automática.
      - Integração com S3, Redshift e Glue.
 
-4. **AWS Step Functions:**
+4. **AWS Step Functions:** [Leitura](../stepfunctions)
    - **O que é:** Um serviço de orquestração de workflows para coordenar tarefas distribuídas.
    - **Casos de Uso:**
      - Automação de pipelines de ETL.
@@ -49,7 +49,7 @@ A transformação de dados envolve a conversão, limpeza e enriquecimento de dad
 O processamento de dados em tempo real é essencial para aplicações que exigem insights imediatos, como monitoramento de sistemas, análise de cliques e IoT.
 
 ### **Serviços de Processamento em Tempo Real**
-1. **Amazon Kinesis:**
+1. **Amazon Kinesis:** [Leitura](../kinesis)
    - **Kinesis Data Streams:**
      - Ingestão de dados em tempo real.
      - Escalável e durável.

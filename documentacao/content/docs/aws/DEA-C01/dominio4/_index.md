@@ -6,7 +6,7 @@ title: "Domínio 4: Análise e Visualização de Dados"
 A AWS oferece várias ferramentas para análise de dados, cada uma com suas características e casos de uso específicos.
 
 ### **Ferramentas de Análise**
-1. **Amazon Athena:**
+1. **Amazon Athena:** [Leitura](../athena)
    - **O que é:** Um serviço de consulta interativa que permite analisar dados diretamente no Amazon S3 usando SQL.
    - **Casos de Uso:**
      - Consultas ad-hoc em grandes volumes de dados.
@@ -15,7 +15,7 @@ A AWS oferece várias ferramentas para análise de dados, cada uma com suas cara
      - Integração com o Glue Data Catalog para catalogação de metadados.
      - Suporte a formatos como CSV, JSON, Parquet e ORC.
 
-2. **Amazon Redshift:**
+2. **Amazon Redshift:** [Leitura](../redshift)
    - **O que é:** Um data warehouse totalmente gerenciado para análise de grandes volumes de dados.
    - **Casos de Uso:**
      - Business intelligence e relatórios.
@@ -24,7 +24,7 @@ A AWS oferece várias ferramentas para análise de dados, cada uma com suas cara
      - Escalabilidade automática.
      - Integração com S3, Glue e QuickSight.
 
-3. **Amazon QuickSight:**
+3. **Amazon QuickSight:** [Leitura](../quicksight)
    - **O que é:** Um serviço de business intelligence (BI) para criação de visualizações interativas e painéis.
    - **Casos de Uso:**
      - Visualização de dados para tomada de decisões.

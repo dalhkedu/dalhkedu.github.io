@@ -110,7 +110,8 @@ Aqui vão algumas sugestões de cursos e conteúdos para complementar sua trajet
 - **Architecting on AWS: SAA-C03** \
   [Curso preparatório AWS com laboratórios](https://explore.skillbuilder.aws/learn/courses/16696/curso-padrao-de-recursos-para-exames-aws-certified-solutions-architect-associate-saa-c03-portugues-exam-prep-standard-course-aws-certified-solutions-architect-associate-saa-c03-portuguese/lessons/84353/introducao-a-aws-certified-solutions-architect-associate-saa-c03-portugues) \
   Focado em projetar soluções escaláveis, resilientes e seguras na AWS. Essencial para quem almeja a certificação AWS Certified Solutions Architect – Associate. \
-  [Curso Udemy que me ajudou na preparação](https/://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/)
+  [Curso Udemy que me ajudou na preparação](https/://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/) \
+  [Passo a passo de estudos](saa-c03)
 
 - **Developing on AWS: DVA-C02** \
   [Curso preparatório AWS com laboratório](https://explore.skillbuilder.aws/learn/courses/18776/curso-padrao-de-preparacao-para-o-exame-aws-certified-developer-associate-dva-c02-portugues-exam-prep-standard-course-aws-certified-developer-associate-dva-c02-portuguese) \
@@ -118,6 +119,7 @@ Aqui vão algumas sugestões de cursos e conteúdos para complementar sua trajet
 
 - **Data Engineer on AWS: DEA-C01** \
   [Curso preparatório AWS com laboratório](https://explore.skillbuilder.aws/learn/courses/18546/exam-prep-standard-course-aws-certified-data-engineer-associate-dea-c01) \
-  Valida habilidades e conhecimentos nos principais serviços da AWS relacionados a dados, a capacidade de ingerir e transformar dados, orquestrar pipelines de dados ao aplicar conceitos de programação, projetar modelos de dados, gerenciar ciclos de vida de dados e garantir a qualidade dos dados.
+  Valida habilidades e conhecimentos nos principais serviços da AWS relacionados a dados, a capacidade de ingerir e transformar dados, orquestrar pipelines de dados ao aplicar conceitos de programação, projetar modelos de dados, gerenciar ciclos de vida de dados e garantir a qualidade dos dados. \
+  [Passo a passo de estudos](dea-c01)
  
 ---
