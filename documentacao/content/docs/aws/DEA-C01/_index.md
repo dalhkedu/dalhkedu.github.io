@@ -50,16 +50,16 @@ O exame é dividido em quatro domínios principais, com a seguinte distribuiçã
 ### **3. Serviços AWS Chave para o Exame**
 - **Amazon S3:** Armazenamento de objetos.
 - **AWS Glue:** ETL (Extract, Transform, Load). [Leitura](glue)
-- **Amazon Redshift:** Data warehouse. [Leitura](redshift)
+- **Amazon Redshift:** Data warehouse. [Leitura](redshift) [Curso](https://explore.skillbuilder.aws/learn/courses/16151/getting-started-with-amazon-redshift-portugues)
 - **Amazon Kinesis:** Processamento de streaming. [Leitura](kinesis)
 - **AWS Lambda:** Computação sem servidor. [Leitura](lambda)
-- **Amazon Athena:** Consulta de dados em S3. [Leitura](athena)
-- **Amazon EMR:** Processamento de big data. [Leitura](emr)
+- **Amazon Athena:** Consulta de dados em S3. [Leitura](athena) [Curso](https://explore.skillbuilder.aws/learn/courses/5838/introduction-to-amazon-athena-portugues)
+- **Amazon EMR:** Processamento de big data. [Leitura](emr) [Curso](https://explore.skillbuilder.aws/learn/courses/21515/conceitos-basicos-do-amazon-emr-portugues-amazon-emr-getting-started-portuguese)
 - **AWS Step Functions:** Orquestração de workflows. [Leitura](stepfunctions)
 - **Amazon DynamoDB:** Banco de dados NoSQL.
 - **Amazon RDS:** Banco de dados relacional.
 - **AWS IAM:** Gerenciamento de acesso e segurança.
-- **Amazon QuickSight:** Visualização de dados. [Leitura](quicksight)
+- **Amazon QuickSight:** Visualização de dados. [Leitura](quicksight) [Curso](https://explore.skillbuilder.aws/learn/courses/21446/criacao-avancada-de-business-intelligence-do-amazon-quicksight-parte-1-portugues-amazon-quicksight-advanced-business-intelligence-authoring-part-1-portuguese)
 
 ---
 

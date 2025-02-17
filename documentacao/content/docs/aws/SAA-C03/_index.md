@@ -45,12 +45,12 @@ O exame é dividido em 4 domínios principais, com a seguinte distribuição de 
 ---
 
 ### **Principais Serviços AWS Cobrados**
-- **Computação**: EC2, [ECS](ecs), Elastic Beanstalk, [EKS](eks), [Lambda](lambda)
+- **Computação**: EC2, [ECS](ecs), Elastic Beanstalk, [EKS](eks), [Lambda](lambda), [Fargate](https://explore.skillbuilder.aws/learn/courses/1284/introduction-to-aws-fargate-portugues)
 - **Armazenamento**: S3, EBS, EFS, Glacier.  [Leitura](armazenamento)
 - **Bancos de Dados**: RDS, DynamoDB, Aurora, Redshift.  [Leitura](bdados)
 - **Rede e Conteúdo**: VPC, CloudFront, Route 53, API Gateway. [Leitura](rede)
 - **Segurança**: IAM, KMS, WAF, AWS Organizations. [Leitura](seguranca)
-- **Monitoramento e Gerenciamento**: CloudWatch, CloudTrail, AWS Config. [Leitura](monitoramento)
+- **Monitoramento e Gerenciamento**: CloudWatch, [CloudTrail](https://explore.skillbuilder.aws/learn/courses/13574/introducao-ao-aws-cloudtrail-portugues-aws-cloudtrail-getting-started-portuguese), AWS Config. [Leitura](monitoramento)
 
 ---
 
