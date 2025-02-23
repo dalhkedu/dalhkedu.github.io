@@ -220,3 +220,41 @@ Implementar essa solução integrada traz benefícios estratégicos significativ
 Esta solução integrada unifica processos de assinatura digital e democratização de dados, proporcionando uma plataforma completa que atende desde a captura e assinatura de contratos até a análise avançada de métricas de negócio. Com a combinação de Lacuna Web PKI, PKI Express e HSM, o Itausign pode oferecer fluxos personalizados para diferentes perfis de usuário (indivíduos e empresas), garantindo segurança jurídica e operacional. Paralelamente, a infraestrutura de dados (usando Kinesis, Glue, S3, Redshift e ferramentas de visualização) permite o monitoramento em tempo real e análises aprofundadas sem sobrecarregar os sistemas transacionais. Por fim, a implementação de alarmes tecnológicos e de negócio, juntamente com uma estratégia robusta de DR, assegura a resiliência e continuidade dos serviços, proporcionando uma vantagem competitiva significativa e sustentada para o negócio.
 
 Esta abordagem integrada garante que o Itausign não só ofereça uma experiência de assinatura digital fluida e segura, mas também possibilite decisões informadas por meio da democratização de dados, alinhando tecnologia e estratégia de negócio para um futuro escalável e inovador.
+
+Para garantir redundância e segurança na verificação dos certificados (e-CPF/e-CNPJ), a ideia é implementar uma checagem sequencial:
+
+1. **Verificação Inicial**:  
+   - Ao iniciar a assinatura, o sistema verifica se o cliente já tem sua chave armazenada em nosso próprio cloud HSM.  
+   - Se não encontrar, o sistema consulta se a chave está armazenada no ambiente do Lacuna.  
+   - Se também não houver registro, o sistema então pergunta ao cliente se ele deseja armazenar sua chave (no nosso HSM ou no Lacuna).
+
+2. **Fluxo de Decisão para Assinatura**:  
+   - **Chave com Nossa HSM**: A assinatura é processada no nosso servidor.  
+   - **Chave com Lacuna**: A assinatura é processada no servidor do Lacuna.
+
+### Sobre a Migração da Chave do Lacuna para Nosso HSM
+
+- **Exportação de Chave**:  
+  - **Normalmente, as chaves privadas armazenadas em HSM ou serviços de certificação como o Lacuna são configuradas como não-exportáveis.** Isso garante que a chave permaneça segura e não possa ser transferida para outro ambiente sem a devida autorização e mecanismos específicos.
+  - **Portanto**, se a chave já estiver armazenada com o Lacuna, geralmente não é possível trazê-la diretamente para o nosso HSM.  
+  - A melhor prática seria **reafirmar com o cliente** se ele deseja manter sua chave conosco. Se ele optar por migrar, em muitos casos será necessário gerar uma nova chave dentro do nosso ambiente (ou realizar um processo de migração que respeite as políticas de segurança e compliance).
+
+### Monitoramento da Validade da Chave
+
+- **Verificação da Expiração**:  
+  - Tanto em nosso HSM quanto no ambiente do Lacuna, é crucial ter acesso às informações de metadados do certificado, incluindo a data de expiração.
+  - **Utilizando as APIs** (sejam do nosso sistema ou do Lacuna), o sistema pode consultar periodicamente o status e a validade do certificado.
+  - Caso o certificado esteja próximo da expiração (por exemplo, nos 30 dias anteriores), um alerta pode ser disparado para notificar o cliente da necessidade de renovação.
+  
+### Conclusão
+
+- **Redundância e Flexibilidade**:  
+  - O fluxo permite que o sistema verifique diversas fontes (nosso HSM e o Lacuna) para assegurar que o cliente possa assinar digitalmente sem interrupções.
+  
+- **Política de Migração de Chave**:  
+  - **Exportação direta não é recomendada nem geralmente permitida por questões de segurança.** Assim, é preferível que o cliente opte por armazenar sua chave no ambiente de sua preferência (nosso HSM ou Lacuna) no início.
+  
+- **Monitoramento de Validade**:  
+  - Através do uso de APIs que retornem metadados do certificado, o sistema pode monitorar a validade da chave e alertar o cliente proativamente, garantindo continuidade sem surpresas.
+
+Esta abordagem oferece uma redundância robusta, mantendo a segurança e a integridade do processo de assinatura digital e garantindo que os certificados estejam sempre válidos para a operação.
