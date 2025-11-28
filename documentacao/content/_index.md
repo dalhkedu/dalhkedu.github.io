@@ -3,7 +3,7 @@ title: Boas Vindas
 type: docs
 ---
 
-# Olá, eu sou Eduardo Lopes 👋
+# Olá, eu sou Eduardo Dalhke Lopes
 ### Arquiteto de Soluções | Inovação Ecossistêmica | Liderança Técnica
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dalhkedu/)](https://www.linkedin.com/in/dalhkedu/)
@@ -33,19 +33,19 @@ Com uma base sólida em ambientes de **missão crítica** (Setor Bancário/Finte
 
 ## Projetos em Destaque
 
-### [Imob-SaaS: Engenharia Financeira e BaaS](#)
+### [Imob-SaaS: Engenharia Financeira e BaaS](posts/imob-saas.md)
 **O Desafio:** A insustentabilidade do modelo tradicional de funding imobiliário (Poupança/FGTS) e a barreira de entrada para pequenos originadores de crédito.
 **A Solução:** Uma plataforma de *Banking as a Service* focada em Securitização Compartilhada.
 * **Impacto:** Redução projetada de **21,25% nos custos operacionais** via automação e "True Sale".
 * **Tech & Regulação:** Arquitetura multi-tenant, integração com Cartórios Digitais e preparação para tokenização via **DREX** (Real Digital).
 
-### [Vem Pro Local: Comércio Conversacional com IA](#)
+### [Vem Pro Local: Comércio Conversacional com IA](posts/vemprolocal.md)
 **O Desafio:** A desconexão entre consumidores digitais (WhatsApp) e a gestão analógica de microempresas.
 **A Solução:** Um ecossistema que utiliza Agentes Inteligentes para transformar conversas informais em dados estruturados de e-commerce.
 * **Inovação:** Uso de **GenAI e Visão Computacional** para cadastro de produtos via foto/áudio, eliminando a fricção de interfaces administrativas complexas.
 * **Estratégia:** Resolução do "Cold Start Problem" através de ferramentas de utilidade imediata ("Single-Player Mode") e indexação SEO Local.
 
-### [Sou Sênior: Educação Técnica Avançada](#)
+### [Sou Sênior: Educação Técnica Avançada](posts/sou-senior.md)
 **O Desafio:** A escassez de conteúdo profundo sobre *trade-offs* arquiteturais para engenheiros seniores.
 **A Solução:** Um canal e plataforma educacional que aplica a **Teoria da Codificação Dupla** para ensinar conceitos abstratos.
 * **Diferencial:** Foco na análise de custos ocultos ("Custo da Abstração"), performance em Cloud e manutenibilidade, indo além da sintaxe do código.
@@ -68,7 +68,7 @@ Com uma base sólida em ambientes de **missão crítica** (Setor Bancário/Finte
 
 ---
 
-## 📫 Vamos Conectar?
+## Vamos Conectar?
 
 Estou sempre aberto a discutir arquitetura de software, inovação em fintechs e o futuro da IA aplicada aos negócios.
 
